@@ -1,0 +1,31 @@
+#input_video {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.7;
+    width: 1280px;
+    height: 720px;
+    z-index: 1;
+}
+
+#input_video {
+    transform: scale(-1, 1);
+}
+
+div#game {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+#mouse-circle {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px dashed yellow;
+    background-color: transparent;
+    pointer-events: none !important;
+    z-index: 3;
+}

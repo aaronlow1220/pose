@@ -44,7 +44,7 @@ let global_y = 0;
 
 // Preload
 function preload() {
-    this.load.atlas("flares", "../assets/flares.png", "../assets/flares.json");
+    this.load.atlas("flares", "../../assets/flares.png", "../../assets/flares.json");
 }
 // Create
 function create() {

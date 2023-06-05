@@ -94,24 +94,24 @@ function create() {
     });
 
     // Particle
-//     let particles = this.add.particles("flares");
-//     this.emitter = particles.createEmitter({
-//         on: false,
-//         alpha: { start: 1, end: 0, ease: "Cubic.easeIn" },
-//         blendMode: "ADD",
-//         frame: {
-//             frames: ["red", "yellow", "green", "blue"],
-//             cycle: true,
-//             quantity: 500,
-//         },
-//         gravity: 300,
-//         quantity: 100,
-//         scale: { min: 0.05, max: 0.15 },
-//         speed: { min: 300, max: 600 },
-//         bounce: 0.9,
-//         collideTop: false,
-//         collideBottom: false,
-//     });
+    let particles = this.add.particles("flares");
+    this.emitter = particles.createEmitter({
+        on: false,
+        alpha: { start: 1, end: 0, ease: "Cubic.easeIn" },
+        blendMode: "ADD",
+        frame: {
+            frames: ["red", "yellow", "green", "blue"],
+            cycle: true,
+            quantity: 500,
+        },
+        gravity: 300,
+        quantity: 100,
+        scale: { min: 0.05, max: 0.15 },
+        speed: { min: 300, max: 600 },
+        bounce: 0.9,
+        collideTop: false,
+        collideBottom: false,
+    });
 
     // Score
     let scoreLabelConfig = {

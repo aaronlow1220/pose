@@ -246,8 +246,8 @@ const init = async () =>{
         selfieMode: true,
         maxNumHands: 2,
         modelComplexity: 1,
-        minDetectionConfidence: 0.75,
-        minTrackingConfidence: 0.75
+        minDetectionConfidence: 0.65,
+        minTrackingConfidence: 0.65
     });
     
     hands.onResults(onResultsHandler);
